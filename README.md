@@ -2,6 +2,8 @@
 
 A controlled experiment on CIFAR-10 that starts from raw-pixel baselines, reproduces a simple CNN, and improves it one change at a time to measure what each change contributes. **Final test accuracy: 87.3%**, up from 70.1% for the original CNN and 44.8% for an MLP baseline.
 
+**Full writeup:** [writeup.pdf](writeup.pdf) explains how CNNs work (convolution, pooling, dense layers) and walks through these results in detail.
+
 **Stack:** Python, TensorFlow/Keras, NumPy, pandas, scikit-learn, Matplotlib · trained on a Colab T4 GPU
 
 ![Test accuracy by model](figures/test_accuracy_by_model.png)
